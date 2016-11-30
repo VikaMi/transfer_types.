@@ -1,12 +1,19 @@
 public class Main {
 
-    public static void main(String[] args){
-        int a = 4;
-        double b = 5.4;
+    static boolean bool = true;
+    static int a = 9;
 
+    public static void main(String[] args) {
 
-    System.out.println(Math.sin(b) + a);
-    System.out.println(Math.PI);
-
+        if (a == 3) {
+            System.out.println("a = 3");
+        } else if (a < 3) {
+            System.out.println("a < 3");
+        } else if (a > 3) {
+            System.out.println("a > 3");
+        }
     }
+
 }
+
+
