@@ -16,6 +16,7 @@ public class Main {
         Number n3 = f;
         int ns = n3.intValue();
 
+
         System.out.println(ns);
 
     }
