@@ -2,14 +2,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-     int a = 5;
-     int b = 9;
-     boolean bool = false;
+        for (int i = 10; i > 0; i--) {
+            System.out.println(i);
 
-     if(!(a == b) || bool ){
-
-         System.out.println("It`s true");
-     }
+        }
 
     }
 }
