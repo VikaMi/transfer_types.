@@ -2,13 +2,15 @@ public class Main {
 
     public static void main(String[] args) {
 
+        int val = calcSum(2, 3);
 
-        String[] st = "Hello World".split(" ");
-        for(String s : st){
-            System.out.println(s);
+        System.out.println(val);
 
-        }
+    }
 
+    static int calcSum(int a, int b){
+        int sum = a + b;
+        return sum;
     }
 }
 
